@@ -1,0 +1,11 @@
+3.88.254.133
+ssh -i "trainingkeys.pem" admin@
+
+
+
+alias grecia='cd /mnt/c/Users/Gre/OneDrive/Escritorio/Study/Linux/Training\ Grecia\ CV/Sabado30/'
+
+#como instalar Apache/ngnex
+
+
+ports.conf
