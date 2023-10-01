@@ -14,3 +14,14 @@ alias grecia='cd /mnt/c/Users/Gre/OneDrive/Escritorio/Study/Linux/Training\ Grec
 # Connect
 ssh -i "trainingkeys.pem" admin@34.235.157.115
 
+## como hacer un for para leer las ips de un server
+#!/bin/bash
+source_file="serverip.csv"
+while IFS=',' read -r ipdir
+do
+echo $ipdir
+done < "$source_file"
+
+### como conectarse por la cli en aws 
+aws confirgure
+
